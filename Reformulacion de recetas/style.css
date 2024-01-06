@@ -1,0 +1,27 @@
+h1{
+    margin: auto auto;
+    text-align: center;
+}
+
+#tab{
+    background-color: antiquewhite; 
+    border: solid 1px black;
+  }
+  .tabla{
+    border: 0.5px solid rgb(181, 137, 225);
+    
+  }
+  #conte{
+    margin: auto;
+    
+  }
+ .contenidoNuevaform{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+  }

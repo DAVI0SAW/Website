@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    <h1>R-Calcula algunas fórmulas de alimentos contenidas en la API</h1>
+    <p>Es importante aclarar que esta app sólo funciona para trabajar con datos contenidos internamente, limitando su modificación, eliminación o agregar nuevos datos</p>
+
+
+    <div id="conte" style="margin: auto; width: 100%; background-color: rgb(209, 195, 223); height: auto;">
+        <input onclick="traer()" type="button" name="buscar" value="buscar" style="margin: 10px 0 ; background-color: rgb(136, 206, 206);"><br>
+        <p>Fórmula: </p>
+        <select name="lista" id="contenido" onchange="cambio()"></select>
+        <div id="salida2" >
+            
+        </div>
+        
+        <div class="contenidoNuevaform tabla1">
+            <table class="tabla">
+                <th>Materiales vs Cantidades</th>
+                <tbody id="tab">
+                    
+                </tbody>
+            </table>
+        </div>
+       
+    </div>
+    
+    <input type="number" name="dato" placeholder="ingrese el nuevo dato" id="nuevoDato">
+    <button onclick="calcularNuevoDato()">calcular</button>
+    <div class="contenidoNuevaform">
+        <table class="tabla">
+            <th>Nueva cantidad <br>Materiales vs Cantidades</th>
+            <tbody id="tab2">
+                
+            </tbody>
+        </table>
+    </div>
+        <footer>
+            <p>Ejercicio Fecht CON MÉTODO GET para llamar datos contenidos en una API contenida en la misma carpeta</p>
+            <P>Los datos contenidos se encuetran en la API son de tipo "Objetc"</P>
+            <p>Desarrollada por David Saw</p>
+        </footer>
+    <script src="mainrecetas.js"></script>
+</body>
+</html>

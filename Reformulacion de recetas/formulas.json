@@ -1,0 +1,44 @@
+{
+    "Pan Sal": {
+        "Harina":100,
+        "Azucar":8,
+        "sal":2,
+        "Levadura":1,
+        "Mantequilla":8,
+        "lechePolvo":1,
+        "agua":44
+    },
+    "Pan Dulce": {
+        "Harina":100,
+        "Azucar":20,
+        "Levadura":1,
+        "Mantequilla":8,
+        "lechePolvo":1,
+        "agua":44
+    },
+    "Galletas": {
+        "Harina":48,
+        "Azucar":28,
+        "Levadura":0.5,
+        "polvo":1,
+        "Mantequilla":4,
+        "lechePolvo":0.25,
+        "agua":20
+    },
+    "Peras": {
+        "Harina":24,
+        "Azucar":14,
+        "Levadura":0.25,
+        "polvo":0.5,
+        "Mantequilla":2,
+        "lechePolvo":0.25,
+        "agua":10
+    },
+    "Cucas": {
+        "Harina":48,
+        "panela":36,
+        "agua":11,
+        "soda":0.75
+    }
+
+}

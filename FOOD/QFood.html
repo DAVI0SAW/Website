@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cabecera{
+            width: 100%;
+            height: 90px;
+            
+            display: flex;
+            flex-direction: left;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .logo{
+            height: 120px;
+            width: 240px;
+    
+            margin-left: 60px;
+            
+        }
+        .navegador{
+            display: flex;
+            float: left;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu{
+         font-size: 25px;
+         margin: 10px;
+        }
+        .menu-cont{
+            margin-right: 60px;
+        }
+        .galeria{
+            width:40%;
+            height: 350px;
+            position: relative;
+            display: flex;
+            overflow: auto;
+            scroll-snap-type: x mandatory;
+            border: 1px solid black;
+            
+        }
+        .galeria img{
+            width: 100%;
+            height: 100%;
+            position: sticky;
+            left: 0;
+            flex-shrink: 0;
+            object-fit: cover;
+            scroll-snap-align: start;
+            
+        }
+        .Qfood{
+            height: 600px;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 20% 65%;
+            overflow: hidden;
+        }
+        main{
+            border: solid 1px black;
+            display: flex;
+            flex-direction: left;
+            align-items: center;
+            justify-content: center;
+            
+        }
+       .pie{
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+       }
+       .parrafo{
+        border: 1px solid black;
+        width: 40%;
+        height: 300px;
+        background-color: antiquewhite;
+        overflow: auto;
+       }
+       .parr{
+        overflow: hidden;
+       }
+       .marg{
+        margin: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="Qfood">
+        <header class="cabecera">
+            <figure> <img class="logo" src="/FOOD/quialityfood.png" alt="img"></figure>
+            <nav class="navegador">
+                <ul class="menu">Inicio</ul>
+                <ul class="menu">algunos sectores</ul>
+                <ul class="menu">Resolucion 2674</ul>
+                <ul class="menu">Recetas</ul>
+                <ul class="menu menu-cont">Contactanos</ul>
+            </nav>
+        </header>
+        
+        <main>
+            
+                <div class="galeria marg">
+                    <img src="/IMG/textura.jpg" alt="">
+                    <img src="/IMG/fondo.JPG" alt="">
+                    <img src="/IMG/licor.jpg" alt="">
+                    <img src="/IMG/blackshade.jpg" alt="">
+                </div>
+            
+            <div class="parrafo marg">
+                <di class="parr">
+                <h1>David Saw</h1>
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corrupti quisquam enim nulla odit omnis assumenda, labore veniam! Dolorum, placeat non ut quaerat perferendis cupiditate corporis veniam praesentium deserunt. Aliquam?</p>
+                <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio accusamus iure praesentium ipsam earum illum voluptas atque, ullam iusto culpa exercitationem esse nisi libero. Minima sed veniam maiores provident.</p>
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corrupti quisquam enim nulla odit omnis assumenda, labore veniam! Dolorum, placeat non ut quaerat perferendis cupiditate corporis veniam praesentium deserunt. Aliquam?</p>
+                <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio accusamus iure praesentium ipsam earum illum voluptas atque, ullam iusto culpa exercitationem esse nisi libero. Minima sed veniam maiores provident.</p>
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corrupti quisquam enim nulla odit omnis assumenda, labore veniam! Dolorum, placeat non ut quaerat perferendis cupiditate corporis veniam praesentium deserunt. Aliquam?</p>
+                <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio accusamus iure praesentium ipsam earum illum voluptas atque, ullam iusto culpa exercitationem esse nisi libero. Minima sed veniam maiores provident.</p>
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corrupti quisquam enim nulla odit omnis assumenda, labore veniam! Dolorum, placeat non ut quaerat perferendis cupiditate corporis veniam praesentium deserunt. Aliquam?</p>
+                <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio accusamus iure praesentium ipsam earum illum voluptas atque, ullam iusto culpa exercitationem esse nisi libero. Minima sed veniam maiores provident.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="pie">
+        <p>Derechos de autor</p>
+    </footer>
+</body>
+</html>

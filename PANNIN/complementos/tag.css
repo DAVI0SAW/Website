@@ -1,0 +1,102 @@
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;                        /*tamaño de la targeta blanca*/
+    background: #000000;                /* fondo blanco*/
+    border-radius: 24px;                /* bordes redondos*/
+}
+
+.card img{
+max-width: 500px;
+height: 250px;
+object-fit:cover;
+margin-right: 30px;
+border-radius: inherit;
+box-shadow: 0 60px 40px rgb(0, 0, 0 / 8%);
+}
+
+
+#taggg{
+ 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.card h3 {
+    color: rgb(245, 174, 80);
+    
+}
+
+.card p {
+    color: rgb(245, 174, 80);;
+}
+.card h2{
+    color: rgb(245, 174, 80);
+}
+
+.card button{
+    border: 0;
+    background: #5448de;
+    color: #f8f8f8;
+    font-family: inherit;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 60px;
+
+}
+.cont-tag{
+    margin-left: 3px;
+}
+
+@media (width <= 740px){
+    .card{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    #taggg{
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+
+#seccion-uno{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: hidden;
+    justify-content: space-evenly;
+    gap: 20px  ;
+
+    @media (max-width: 900px){
+        grid-template-columns: auto;
+    }
+    }
+
+
+
+
+    .wp {
+        width: 30px;
+        position: fixed;
+        left: 90px;
+        top: 500px;
+        border: 10px solid rgb(99, 201, 99);
+        background-color: rgb(99, 201, 99);
+        border-radius: 50%;
+    
+        @media (max-width: 550px) {
+            left: 40px;
+            top: 500px;
+            bottom: 100px;
+        }
+    
+    }
